@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+                *{
+                    padding: 0px;
+                    margin: 0px;    
+                  background-color: cadetblue;
+                   
+                }
+                div.main-div{
+                        background-color: aqua;
+                        margin-left: 40%;
+                        margin-right: 30%;
+                        margin-top: 5%;
+                        border: 1px solid black;
+                        border-radius: 4px;
+                        padding-left: 5px;
+                        padding-top: 1px;
+                        padding-bottom: 1px;
+                        
+                }
+                .btn-class{
+                        margin: 10px;
+                }
+        </style>
+</head>
+<body>
+        
+  <form action="lucky music.html" target="frame1" method="get" autocomplete="off">
+        <div class="main-div">
+                <h1>music website form</h1>
+                <fieldset>
+                        <legend>login</legend>
+                        <label for="txtfname">First name</label><br>
+                <input type="text"id="txtfname"><br>
+                <label for="txtlastname">Lastname</label><br>
+                <input type="text"id="txtlastname"><br>
+                <label>
+                
+                        Gender
+                </label><br>
+                
+                <label for="tbtnMale">Male</label>
+                <input type="radio" value="Male" id="rbtnMale">
+                <label for="rbtn Female">Female</label>
+                <input type="radio" value="female" id="rbtn Female">
+                <label for="rbtnOthers">Others</label>
+                <input type="radio" value="Others" id="Gender"><br>
+                <label for="items">select Items</label>
+                <input type="checkbox" id="items" name="item1" value="Item1">
+                <label for="item1">Item1</label>
+                <input type="checkbox" id="items" name="item2" value="Item2">
+                <label for="item2">Item2</label>
+                <input type="checkbox" id="items" name="item3" value="Item3">
+                <label for="item3">Item3</label><br>
+                <label for="pass">password</label><br>
+                <input type="password"><br>
+                <label for="">select song type</label>
+                <select name="music" id="music" minimum size="0.1%">
+                        <option value="melody" selected>melody</option>
+                        <option value="mass" >mass</option>
+                        <option value="beat">beat</option>
+                        <option value="traditional">traditional</option>
+                        <option value="western">western</option>
+                        
+                </select>
+                <br>
+                <label for="msg">any message</label><br>
+                <textarea name="" id="msg" cols="30" rows="20"></textarea>
+                <input type="submit" value="submit" class="btn-class">
+                <input type="reset" value="reset" class="btn-class"><br>
+                <button type="button" onclick="alert('thanks for submitting')">Click Me!</button>
+                </fieldset>
+
+        </div>
+        
+        <form action="">
+                <label for="music">choose song type</label>
+                <select name="music" id="MUSIC">
+                 <optgroup label="south">
+                        <option value="melody">melody</option>
+                        <option value="mass">mass</option>
+                        <option value="beat">beat</option>
+                        <option value="traditional">traditional</option>
+                        <option value="western">western</option>
+                 </optgroup>
+                 <optgroup label="north">
+                        <option value="melody">melody</option>
+                        <option value="mass">mass</option>
+                        <option value="beat">beat</option>
+                        <option value="traditional">traditional</option>
+                        <option value="western">western</option>
+                 </optgroup>
+
+                </select>
+                <br><br>
+                <input type="submit" value="submit">
+                
+        
+        </form>
+        
+        
+  </form>
+   
+</body>
+</html>
